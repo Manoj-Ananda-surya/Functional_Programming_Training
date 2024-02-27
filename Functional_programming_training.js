@@ -16,3 +16,11 @@ const users = [
   const otherString = "How are-you.today";
   const byDigits = otherString.split(/[.,-\s]/);
   console.log(byDigits);
+
+const first = [1, 2, 3];
+const second = [4, 5];
+console.log(first.concat(second));
+
+const numbers = [1, 5, 8, 0, 10, 11];
+console.log(numbers.every(i=>i<10));
+console.log(numbers.some(i=>i<10));

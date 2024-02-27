@@ -24,6 +24,3 @@ console.log(first.concat(second));
 const numbers = [1, 5, 8, 0, 10, 11];
 console.log(numbers.every(i=>i<10));
 console.log(numbers.some(i=>i<10));
-
-
-  
